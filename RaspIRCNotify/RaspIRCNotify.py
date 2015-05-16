@@ -1,3 +1,10 @@
+# Raspberry Pi IRC Notificadtion Device
+#
+# This script enables a Raspberry Pi with a properly set up breadboard to act
+# as a simple notification device for channel messages. It could easily be expanded
+# to be more functional.
+# 
+# Created 5/16/15 by Rohn Adams
 import RPi.GPIO as GPIO
 import irc.bot
 import irc.client
